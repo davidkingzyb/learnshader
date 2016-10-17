@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>shaderTest</title>
+    <script type="text/javascript" src="./js/wtf.js"></script>
+    <script type="text/javascript" src="./js/dat.gui.min.js"></script>
+    <!-- <script type="text/javascript" src="./js/terminal.js"></script> -->
+</head>
+
+<body>
+    <style>
+    canvas {
+        border: solid 1px black;
+    }
+    
+    #footer a {
+        text-decoration: none;
+        color: black;
+        font-size: 16px;
+    }
+    
+    #footer a:hover {
+        text-decoration: none;
+        color: #12e0e4;
+    }
+    
+    #footer {
+        z-index: 20;
+        position: fixed;
+        bottom: 0px;
+        color: black;
+        font-family: Helvetica, Arial, SimHei, sans-serif;
+        margin: 20px;
+        width: 100%;
+    }
+    
+    #logo {
+        font-size: 25px;
+    }
+    
+    #right {
+        float: right;
+        margin-top: 11px;
+        margin-right: 50px;
+    }
+    
+    #left {
+        float: left;
+    }
+    
+    #copyright {
+        font-size: 5px;
+    }
+    </style>
+    <div class="container">
+        <!-- <h1>shaderTest</h1> -->
+        <div class="webgl2dcon">
+            <canvas id="webgl2d" width="500px" height="500px"></canvas>
+        </div>
+        <div class="webgl3dcon">
+            <canvas id="webgl3d" width="500px" height="500px"></canvas>
+        </div>
+    </div>
+    <div id="footer">
+        <div id="left">
+            <span id="logo">&nbsp;&nbsp;&nbsp;&nbsp;shaderTest&nbsp;&nbsp;&nbsp;&nbsp;</span>
+            
+        </div>
+        <div id="right">
+            
+            <a href="http://davidkingzyb.github.io">| home</a>&nbsp;&nbsp;
+            <a href="http://davidkingzyb.github.io/blog.html">| blog</a>&nbsp;&nbsp;
+            <a href="https://github.com/davidkingzyb">| github</a>&nbsp;&nbsp;
+            <span id="copyright">&copy;2016 by DKZ</span>
+        </div>
+    </div>
+    <script type="text/javascript" src="./js/shadertest.js"></script>
+</body>
+
+</html>
